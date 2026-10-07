@@ -18,7 +18,7 @@ public class LastOccurrence {
             }else if(arr[mid] < target){
                 low = mid+1;
 
-            }else{
+            }else {
                 high = mid-1;
             }
         }
