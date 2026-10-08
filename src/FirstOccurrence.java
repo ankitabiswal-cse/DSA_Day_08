@@ -12,7 +12,7 @@ public class FirstOccurrence {
 
             int mid = low+(high - low)/2;
 
-            if(arr[mid] == target){
+            if(arr[mid] ==  target){
                 answer = mid;
                 high = mid - 1;
             }else if(arr[mid] < target){

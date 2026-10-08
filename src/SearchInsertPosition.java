@@ -10,7 +10,7 @@ public class SearchInsertPosition {
         while(low<=high){
             int mid = low+(high - low)/2;
 
-            if(arr[mid] == target) {
+            if(arr[mid] == target)  {
                 System.out.println("Insert Position :"+mid);
             }else if(arr[mid] < target){
                 low = mid+1;
