@@ -35,7 +35,7 @@ public class CountOccurrence {
             } else if (arr[mid] < target){
                 low = mid+1;
             }else{
-                high =   mid-1;
+                high =    mid-1;
             }
         }
         int count = last - first + 1;

@@ -3,7 +3,7 @@ public class FindFloor {
 
         int[] arr = {2,5,8,12,16,20};
 
-        int target = 15;
+        int   target = 15;
         int low = 0;
         int high = arr.length - 1;
 
